@@ -14,8 +14,17 @@ function topbar(){
       
     }
 }
+function changeBackground(){
+    document.querySelector('.header').style.backgroundImage = "url('https://mk0zofoqaluvgdskgvsb.kinstacdn.com/photos/landing-page-convert-more-sales_sm.jpg')";
+    // if(document.querySelector('.header').style.backgroundImage == "url('https://mk0zofoqaluvgdskgvsb.kinstacdn.com/photos/landing-page-convert-more-sales_sm.jpg')"){
+    //     document.querySelector('.header').style.backgroundImage = "url('https://mk0zofoqaluvgdskgvsb.kinstacdn.com/photos/landing-page-convert-more-customers_sm.jpg')";
+    // }
+    // else if(document.querySelector('.header').style.backgroundImage = "url('https://mk0zofoqaluvgdskgvsb.kinstacdn.com/photos/landing-page-convert-more-customers_sm.jpg')"){
+    //     document.querySelector('.header').style.backgroundImage = "url('https://mk0zofoqaluvgdskgvsb.kinstacdn.com/photos/landing-page-convert-more-leads_sm.jpg')";  
+    // }
+}
 
-
+setInterval(changeBackground,1000)
 
 
 document.addEventListener('scroll',topbar)
