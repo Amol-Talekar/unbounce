@@ -1,3 +1,4 @@
+
 @media only screen and (min-width: 1200px) {
     *{
     padding: 0;
@@ -177,3 +178,169 @@ html, body, .main-container{
 
 
 }
+
+.floatleft{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+#brandnames,#brandnames>div{
+    padding: 1em;
+    margin: 1em;
+    
+    height: 50px;
+}
+#brandnames>h1{
+    text-align: center;
+    color: rgb(77, 76, 76);
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#belowbrand>h1{
+    font-size: 80px;
+    width: 80%;
+    height: 200px;
+    margin-top: 30px;
+    font-weight: lighter;
+    color: rgb(44, 44, 44);
+    margin-bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+
+#belowbrand>p{
+    font-size: 20px;
+    width: 80%;
+    height: 400px;
+    font-weight: 100;
+    color: rgb(114, 113, 113);
+    margin-top: 0;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#amolimg{
+    max-width: 40%;
+    margin: auto;
+}
+#amolcont{
+    display: grid;
+    gap: 0.5em;
+    grid-template: 
+                    "amolleft amolmiddle amolright"
+}
+
+#amolleft{
+    grid-area: amolleft;
+    height: 500px;
+    padding: 0.5em;
+    margin: 0.5em;
+    margin-left: 7em;
+}
+#amolmiddle{
+    grid-area: amolmiddle;
+    height: 500px;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+#amolright{
+    grid-area: amolright;
+    height: 500px;
+    padding: 0.5em;
+    margin: 0.5em;
+    margin-right: 7em;
+}
+
+#amolleft>h4, #amolmiddle>h4,#amolright>h4{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#amolleft>button, #amolmiddle>button,#amolright>button{
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+#icon2{
+    width: 28px;
+}
+#icon3{
+    width: 40px;
+}
+#amolleft>h4,#amolmiddle>h4, #amolright>h4,#amolleft>p, #amolright>p,#amolmiddle>p{
+    margin-bottom: 4%;
+}
+
+#amolgrid2{
+    display: grid;
+    gap: 2.5em;
+    margin-left: 5em;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                           
+    
+   
+}
+#amolgrid2>div{
+    
+    color: rgb(148, 146, 146);
+}
+
+#contactheader{
+    height: 220px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 0;
+     
+}
+#contactheader>h1{
+    font-size: 70px;
+    color: rgb(46, 45, 45);
+    font-weight: lighter;
+}
+#contactheader>p{
+    font-size: 20px;
+    color: rgb(46, 45, 45);
+    font-weight: lighter;
+}
+
+#amolgrid3{
+    display: grid;
+    gap: 2.5em;
+    margin: 5em;
+    margin-top: 0;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}    
+#amolgrid3>div{
+    border: 1px solid gray;
+    height: 400px;
+    padding: 1em;
+}
+
+#contactbox1>h4,#contactbox2>h4,#contactbox3>h4,#contactbox4>h4{
+    font-size: 30px;
+    font-weight: lighter;
+}
+#contactbox1>p,#contactbox2>p,#contactbox3>p,#contactbox4>p{
+    font-size: 20px;
+    font-weight: lighter;
+    color: gray;
+}
+#contactbox1>button,#contactbox2>button,#contactbox3>button,#contactbox4>button{
+    font-size: 18px;
+    height: 50px;
+    width: 150px;
+    font-weight: lighter;
+    border: 2px solid rgb(50, 50, 184);
+    color: rgb(50, 50, 184);
+}
+
+
+
+
+
+
