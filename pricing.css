@@ -1,0 +1,115 @@
+
+.pricing-header{
+    width: 70%;
+    margin: auto;
+    padding-top: 12%;
+}
+.pricing-header>p:nth-child(1){
+    color: #303030;
+    font-size:5.5vw;
+    font-weight: 600;
+    font-family:  'Roboto Condensed', sans-serif;
+
+}
+.pricing-header p{
+    font-size: 18px;
+    padding-bottom: 3%;
+}
+.center{
+    text-align: center;
+}
+.pricing-header button{
+    width: 180px;
+    height: 40px;
+    border: 1px solid grey;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.need_higher{
+    /* border: 2px solid red; */
+    
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding-top: 5%;
+}
+.need_higher img{
+    width: 150px;
+    
+}
+.need_higher>div:nth-child(2){
+    
+    margin-left: 5%;
+    font-family:  'Roboto Condensed', sans-serif;
+    width: 50%;
+}
+.need_higher>div:nth-child(2)>p:nth-child(1){
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight:600;
+    
+    color: #303030;
+}
+.need_higher>div:nth-child(2)>p:nth-child(2){
+    font-size: 18px;
+}
+.need_higher button{
+    /* margin-top: 10%; */
+    width: 300px;
+    height: 75px;
+    background: none;
+    border: 2px solid blue;
+    color: blue;
+    font-size: 16px;
+    font-weight: 700;
+}
+.need_higher_cont{
+    height: 250px;
+    border: 1px solid gray;
+}
+.auto{
+    margin: auto;
+}
+.plan_is_best_cont{
+    width: 100%;
+    height: 350px;
+    border: 2px solid grey;
+}
+.plan_is_best{
+    width: 80%;
+    padding-top: 5%;
+
+}
+
+.plan_is_best>div:nth-child(2){
+    margin-top: 5%;
+    font-size: 50px;
+    font-family:  'Roboto Condensed', sans-serif;
+}
+.plan_is_best>div:nth-child(3){
+    margin-top: 2%;
+    font-size: 50px;
+    font-family:  'Roboto Condensed', sans-serif;
+    
+}
+.plan_is_best>div:nth-child(3)>button{
+    margin-top: 2%;
+    font-size: 20px;
+    font-family:  sans-serif;
+    width: 180px;
+    height: 65px;
+    background-color: blue;
+    border: none;
+    color: white;
+    
+}
+.klient_boost{
+    display: flex;
+    height: 650px;
+    width: 100%;
+    border: 2px solid grey;
+}
+.dog_man_image{
+    
+}
