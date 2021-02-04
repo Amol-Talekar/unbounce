@@ -31,12 +31,22 @@ html, body, .main-container{
 }
 .nav-bar a{
    color: black;
-   font-size: 20px;
+   font-size: 18px;
     font-family: sans-serif;
     text-decoration: none;
-    margin: 1%;
+    margin: 0.5%;
 
 }
+/* .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  } */
 
 
 .nav-bar a>img{
@@ -49,7 +59,7 @@ html, body, .main-container{
    
 }
 .nav-bar i{
-    margin-left:5% ;
+    margin-left:15% ;
    color: rgb(92, 87, 87);
     font-size: 20px;
     margin-right: 0;
