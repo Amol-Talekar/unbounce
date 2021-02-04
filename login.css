@@ -1,0 +1,49 @@
+#logincontain{
+    width: 100%;
+    height: 800px;
+
+
+}
+  #logindetail{
+      width: 30%;
+      height: 600px;
+ padding-left: 10%;
+ padding-top: 5%;
+}
+
+#loginimg{
+    width: 40%;
+    margin:15px 100px;
+    height: 600px;
+
+}
+ #logincontain>div{
+     float: left;
+     
+}
+  #logincontain p{
+        color:rgb(82, 78, 78);
+        font-size: 25px;
+ }
+    #logindetail label{
+       font-size: 20px;
+       color: rgb(92, 89, 89);
+       margin-top: 40px;
+ 
+ }
+ #logindetail input{
+     width: 80%;
+     height: 35px;
+     margin-top: 1%;
+ 
+ }
+ #logindetail button{
+     width: 80%;
+     height: 50px;
+     margin-top: 1%;
+     background-color: blue;
+     color: white;
+     border-radius: 5px;
+ 
+ }
+

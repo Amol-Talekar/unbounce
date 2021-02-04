@@ -1,4 +1,3 @@
-@media only screen and (min-width: 1200px) {
     *{
     padding: 0;
     margin: 0;
@@ -84,9 +83,8 @@ html, body, .main-container{
     
 
    
-}
-.cont_text{
-    
+}.cont_text{
+    /* border: 2px solid brown; */
     padding-left: 10%;
     width: 50%;
     height: 100%
@@ -123,7 +121,7 @@ html, body, .main-container{
 
 }
 .blue-footer{
-    
+    margin-top: 5%;
     width: 100%;
     height: 500px;   
     background-color: blue;
@@ -172,34 +170,6 @@ html, body, .main-container{
     font-weight: 300;
 }
 
-
-.pricing-header{
-    width: 70%;
-    margin: auto;
-    padding-top: 12%;
-}
-.pricing-header>p:nth-child(1){
-    color: #303030;
-    font-size:5.5vw;
-    font-weight: 600;
-    font-family:  'Roboto Condensed', sans-serif;;
-
-}
-.pricing-header p{
-    font-size: 18px;
-    padding-bottom: 3%;
-}
-.center{
-    text-align: center;
-}
-.pricing-header button{
-    width: 180px;
-    height: 40px;
-    border: 1px solid grey;
-    margin: 0%;
-    padding: 0%;
-    
-}
 
 
 
@@ -315,6 +285,7 @@ html, body, .main-container{
 }
 
 #contactheader{
+    
     height: 220px;
     width: 70%;
     margin: auto;
@@ -365,4 +336,167 @@ html, body, .main-container{
     color: rgb(50, 50, 184);
 }
 
-}
+
+#jayesh{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+            }
+             #head{
+                 text-align: center;
+                 width: 100%;
+            
+            
+             } 
+              #boxleft{ height:  420px;
+                 width: 25%;
+                 margin: 1.5%;
+                 border:0.01px solid grey;
+                 float: left;
+                 margin-top: 12%;
+                 margin-left: 10%;
+                
+    
+             }
+             #boxright{ height: 420px;
+                 width: 25%;
+                 margin: 1.5%;
+                 border:0.01px solid grey;
+                 float: left;
+                 margin-top: 12%;
+            
+                
+    
+             }
+             #boxmiddle{
+                height: 420px;
+                 width: 25%;
+                 margin: 1.5%;
+                 border:0.01px solid grey;
+                 float: left;
+                 margin-top: 12%;
+            
+    
+             } 
+             #boxleft img{
+                height: 45vh;
+                 width:100%;
+                 padding:0% 15%;
+                 margin-top: -100px;
+             }
+             #boxmiddle img{
+                height: 45vh;
+                 width:100%;
+                 padding:0% 15%;
+                 margin-top: -100px;
+             }
+             #boxright img{
+                height: 45vh;
+                 width:100%;
+                 padding:0% 15%;
+                 margin-top: -100px;
+             }  
+             #boxright h5{
+                 padding:0% 15%;
+                 text-align: left;
+                 font-size: 25px;
+                 line-height: 10px;
+                
+             }
+             #boxmiddle h5{
+                 padding:0% 15%;
+                 text-align: left;
+                 font-size: 25px;
+                 line-height: 10px;
+                
+             }
+             #boxleft h5{
+                 padding:0% 15%;
+                 text-align: left;
+                 font-size: 25px;
+                 line-height: 10px;
+                
+             }
+             #boxleft p{
+                padding:6% 15%;
+                 text-align: left;
+                 color:rgb(119, 109, 109);
+                 font-size: 18px;
+        
+                
+             }
+             #boxmiddle p{
+                padding:6% 15%;
+                 text-align: left;
+                 color:rgb(119, 109, 109);
+                 font-size: 18px;
+             }
+             #boxright p{
+                 margin-bottom: 20px;
+                padding:6% 15%;
+                 text-align: left;
+                 color:rgb(119, 109, 109);
+                 font-size: 18px;
+             }
+             #boxleft h4{
+                 padding: 0% 15%;
+                 text-align: left;
+                 font-size: 20px;
+             }
+             #boxmiddle h4{
+                 padding: 0% 15%;
+                 text-align: left;
+                 font-size: 20px;
+             }
+             #boxright h4{
+                 padding: 0% 15%;
+                 text-align: left;
+                 font-size: 20px;
+             }
+              #bigbox{
+                  width: 100%;
+                  height: 600px;
+                  padding:  0% 10%;
+                  margin-top:20%;
+            
+              }
+              #bigbox>p{
+                  margin-bottom: 50px;
+                  padding-bottom: 50px;
+              }
+              #bigbox>div{
+                  width: 50%;
+                  height: 600px;
+                  padding: 10% 2%;
+                  float: left;
+              }
+              #bigbox>div>img{
+                  width: 100%;
+                  height: 500px;
+                  margin-right: 10px;
+              }
+              #bigbox2{
+                  width: 100%;
+                  height: 600px;
+                  padding: 0% 10%;
+                  margin-top: 50px;
+            
+              } #bigbox2>div{
+                  width: 50%;
+                  height: 600px;
+                  padding: 10% 2%;
+                  float: left;
+              }
+              #bigbox2>div>img{
+                  margin-top: 0%;
+                  width: 110%;
+                  height: 600px;
+                
+              }
+              #bigbox2>div>h1{
+                  font-size: 5.9vw;
+                  font-family: 'Roboto Condensed', sans-serif; ;
+              }
+
+
+
+
+
