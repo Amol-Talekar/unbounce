@@ -1,0 +1,147 @@
+#jayesh{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+            }
+             #head{
+                 text-align: center;
+            
+            
+             } 
+              #boxleft{ height:  600px;
+                 width: 25%;
+                 margin: 1.5%;
+                 border:0.01px solid grey;
+                 float: left;
+                 margin-top: 12%;
+                 margin-left: 10%;
+                
+    
+             }
+             #boxright{ height: 600px;
+                 width: 25%;
+                 margin: 1.5%;
+                 border:0.01px solid grey;
+                 float: left;
+                 margin-top: 12%;
+            
+                
+    
+             }
+             #boxmiddle{
+                height: 600px;
+                 width: 25%;
+                 margin: 1.5%;
+                 border:0.01px solid grey;
+                 float: left;
+                 margin-top: 12%;
+            
+    
+             } 
+             #boxleft img{
+                height: 45vh;
+                 width:70%;
+                 padding:0% 15%;
+                 margin-top: -100px;
+             }
+             #boxmiddle img{
+                height: 45vh;
+                 width:70%;
+                 padding:0% 15%;
+                 margin-top: -100px;
+             }
+             #boxright img{
+                height: 45vh;
+                 width:70%;
+                 padding:0% 15%;
+                 margin-top: -100px;
+             }  
+             #boxright h5{
+                 padding:0% 15%;
+                 text-align: left;
+                 font-size: 25px;
+                 line-height: 10px;
+                
+             }
+             #boxmiddle h5{
+                 padding:0% 15%;
+                 text-align: left;
+                 font-size: 25px;
+                 line-height: 10px;
+                
+             }
+             #boxleft h5{
+                 padding:0% 15%;
+                 text-align: left;
+                 font-size: 25px;
+                 line-height: 10px;
+                
+             }
+             #boxleft p{
+                padding:6% 15%;
+                 text-align: left;
+                 color:rgb(119, 109, 109);
+                 font-size: 18px;
+        
+                
+             }
+             #boxmiddle p{
+                padding:6% 15%;
+                 text-align: left;
+                 color:rgb(119, 109, 109);
+                 font-size: 18px;
+             }
+             #boxright p{
+                padding:6% 15%;
+                 text-align: left;
+                 color:rgb(119, 109, 109);
+                 font-size: 18px;
+             }
+             #boxleft h4{
+                 padding: 0% 15%;
+                 text-align: left;
+                 font-size: 20px;
+             }
+             #boxmiddle h4{
+                 padding: 0% 15%;
+                 text-align: left;
+                 font-size: 20px;
+             }
+             #boxright h4{
+                 padding: 0% 15%;
+                 text-align: left;
+                 font-size: 20px;
+             }
+              #bigbox{
+                  width: 90%;
+                  height: 600px;
+                  padding:  0% 10%;
+                  margin-top:20%;
+            
+              }
+              #bigbox>div{
+                  width: 40%;
+                  height: 600px;
+                  padding: 10% 2%;
+                  float: left;
+              }
+              #bigbox>div>img{
+                  width: 100%;
+                  height: 500px;
+                  margin-right: 10px;
+              }
+              #bigbox2{
+                  width: 90%;
+                  height: 600px;
+                  padding: 0% 10%;
+                  margin-top: -50px;
+            
+              } #bigbox2>div{
+                  width: 40%;
+                  height: 600px;
+                  padding: 10% 2%;
+                  float: left;
+              }
+              #bigbox2>div>img{
+                  width: 110%;
+                  height: 600px;
+                
+              }
