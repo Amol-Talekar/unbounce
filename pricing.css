@@ -180,3 +180,19 @@
     font-size: 20px;
     font-family: sans-serif;
 }
+.conversions_month_cont{
+    width: 100%;
+    display: flex;
+}
+.conversions_month{
+    /* width: 30%; */
+    /* margin; */
+}
+
+.conversions_month>input:nth-child(3n+4) {
+    width: 500px;
+    /* height: 50px; */
+}
+.conv_scale_image{
+    display: flex;
+}
