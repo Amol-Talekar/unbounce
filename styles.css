@@ -69,9 +69,21 @@ html, body, .main-container{
     border: 2px solid black;
     height: 40px;
     font-size: 20px;
-
+   
    
 }
+/* .nav-bar a:nth-child(8)>button:hover 
+{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.nav-bar a:nth-child(9)>button:hover 
+{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+} */
 
 .nav-bar a:nth-child(9)>button{
    
@@ -462,7 +474,7 @@ html, body, .main-container{
     padding: 5px;
 }
 
-@media(max-width: 600px)
+@media(max-width: 700px)
 {
     #amolgrid3
     {
