@@ -1,3 +1,4 @@
+
     *{
     padding: 0;
     margin: 0;
@@ -486,11 +487,13 @@ html, body, .main-container{
 }
 
 
+
 #jayesh{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
             }
              #head{
                  text-align: center;
+
                  width: 100%;
             
             
@@ -505,6 +508,7 @@ html, body, .main-container{
                 
     
              }
+
              #boxright{ height: 420px;
                  width: 25%;
                  margin: 1.5%;
@@ -533,6 +537,7 @@ html, body, .main-container{
              }
              #boxmiddle img{
                 height: 45vh;
+
                  width:100%;
                  padding:0% 15%;
                  margin-top: -100px;
@@ -601,12 +606,14 @@ html, body, .main-container{
                  font-size: 20px;
              }
               #bigbox{
+
                   width: 100%;
                   height: 600px;
                   padding:  0% 10%;
                   margin-top:20%;
             
               }
+
               #bigbox>p{
                   margin-bottom: 50px;
                   padding-bottom: 50px;
@@ -623,6 +630,7 @@ html, body, .main-container{
                   margin-right: 10px;
               }
               #bigbox2{
+
                   width: 100%;
                   height: 600px;
                   padding: 0% 10%;
@@ -644,6 +652,7 @@ html, body, .main-container{
                   font-size: 5.9vw;
                   font-family: 'Roboto Condensed', sans-serif; ;
               }
+
 
 
 
