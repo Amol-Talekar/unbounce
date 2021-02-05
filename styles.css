@@ -314,7 +314,7 @@ html, body, .main-container{
 }    
 #amolgrid3>div{
     border: 1px solid gray;
-    height: 400px;
+    height: 370px;
     padding: 1em;
 }
 
@@ -326,14 +326,50 @@ html, body, .main-container{
     font-size: 20px;
     font-weight: lighter;
     color: gray;
+    margin-top: 1.5em;
 }
 #contactbox1>button,#contactbox2>button,#contactbox3>button,#contactbox4>button{
     font-size: 18px;
     height: 50px;
     width: 150px;
+    margin-left: 2em;
     font-weight: lighter;
     border: 2px solid rgb(50, 50, 184);
     color: rgb(50, 50, 184);
+}
+#contactbox1>button{
+    margin-top: 2em;
+}
+#contactbox2>button{
+    margin-top: 1.4em;
+}
+#contactbox3>button{
+    margin-top: 2.5em;
+}
+#contactbox4>button{
+    margin-top: 1.8em;
+}
+
+#contactBlackBox{
+   background-color: rgb(41, 40, 40);
+   color: white;
+}
+#blackboxHeader{
+    
+    width: 100%;
+    margin: auto;
+}
+#blackboxHeader>h1{
+    font-size: 75px;
+    text-align: center;
+    padding-top: 1em;
+    font-weight: lighter;
+}
+#blackboxHeader>p{
+    font-size: 20px;
+    text-align: center;
+    padding: 1em;
+    font-weight: lighter;
 }
 
 
