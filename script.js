@@ -52,3 +52,15 @@ var annaul = document.querySelector('.pricing-header>button:nth-child(5)')
 var monthly = document.querySelector('.pricing-header>button:nth-child(4)')
 monthly.addEventListener('click',backgroundChangeToWhite)
 annaul.addEventListener('click',backgroundChangeToPink)
+
+
+
+
+function changeValue(){
+    document.querySelector('.conversions_month>input:nth-child(3)').innerHTML=con_range
+}
+
+
+var con_range = document.querySelector('.conversions_month>input:nth-child(4)').value
+
+con_range.addEventListener('stepUp',changeValue)
