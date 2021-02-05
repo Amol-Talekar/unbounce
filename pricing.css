@@ -185,14 +185,151 @@
     display: flex;
 }
 .conversions_month{
-    /* width: 30%; */
-    /* margin; */
+    margin-left: 5%;
+    width: 60%;
+   
+}
+.conversions_month_right{
+    margin-right: 5%;
+    width: 25%;
 }
 
 .conversions_month>input:nth-child(3n+4) {
     width: 500px;
-    /* height: 50px; */
+ 
+}
+.conversion_month_right{
+    border: 2px solid grey;
+    width: 40%;
+    padding-left: 2%;
 }
 .conv_scale_image{
     display: flex;
+    width: 100%;
+    
 }
+
+.conv_scale_image img{
+    width: 25%;
+    padding: 5%;
+    object-fit: contain;
+}
+.conv_scale {
+    width: 40%;
+    margin: 7%;
+}
+.conv_scale h3{
+    
+    font-size: 30px;
+    font-family:  'Roboto Condensed', sans-serif;
+}
+.conv_scale p{
+    font-size: 20px;
+    font-family:  'Roboto Condensed', sans-serif;
+    
+}
+.conv_buttons>button{
+    width: 40%;
+    margin:0% -1%;
+    height: 50px;
+
+}
+.what_included {
+    width: 70%;
+}
+.what_included ul{
+    
+        list-style: none;
+      
+      
+     
+}
+.what_included>ul li:before {
+    content: '✓';
+    color: blue;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .before_last_button button{
+      background-color: white;
+      border: none;
+  }
+  .conv_last_button button{
+    border: none;
+    color: white;
+    background-color: blue;
+    width: 400px;
+    height: 75px;
+    font-size: 22px;
+  }
+  .bot_m{
+      margin-bottom: 5%;
+  }
+  .kamalgrid{
+      height: 900px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+   
+}
+.conversion_month_right_four{
+    border: 2px solid grey;
+    width: 30%;
+    padding-left: 2%;
+}
+.conv_scale_image_four{
+    display: flex;
+    width: 100%;
+    
+}
+
+.conv_scale_image_four img{
+    width: 25%;
+    padding: 2%;
+    object-fit: contain;
+}
+.conv_scale_four {
+    width: 40%;
+    margin: 3%;
+}
+.conv_scale_four h3{
+    
+    font-size: 20px;
+    font-family:  'Roboto Condensed', sans-serif;
+}
+.conv_scale_four p{
+    font-size: 14px;
+    font-family:  'Roboto Condensed', sans-serif;
+    
+}
+
+.what_included_four {
+    width: 70%;
+}
+.what_included_four ul{
+    width: 100%;
+    font-size: 12px;
+        list-style: none;
+      
+      
+     
+}
+.what_included_four>ul li:before {
+    content: '✓';
+    color: blue;
+    font-size: 18px;
+    font-weight: 900;
+  }
+  .before_last_button_four button{
+      background-color: white;
+      border: none;
+  }
+  .conv_last_button_four button{
+    border: none;
+    color: white;
+    background-color: blue;
+    width: 200px;
+    height: 55px;
+    font-size: 15px;
+    /* padding-right: 2%; */
+  }
