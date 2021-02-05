@@ -9,11 +9,10 @@ function topbar(){
         document.querySelector(".nav-bar").style = "none"
         document.querySelector(".nav-bar a:nth-child(8)>button").style.color = "black"
         document.querySelector(".nav-bar a:nth-child(8)>button").style.border = "2px solid black"
-        document.querySelector(".nav-bar a:nth-child(9)>button").style.backgroundColor="black"
-
-      
+        document.querySelector(".nav-bar a:nth-child(9)>button").style.backgroundColor="black" 
     }
 }
+document.addEventListener('scroll',topbar)
 var images =[
     "url('https://mk0zofoqaluvgdskgvsb.kinstacdn.com/photos/landing-page-convert-more-sales_sm.jpg')",
     "url('https://mk0zofoqaluvgdskgvsb.kinstacdn.com/photos/landing-page-convert-more-customers_sm.jpg')",
@@ -35,6 +34,7 @@ setInterval(changeBackground,2000)
 setInterval(changeBackground_1,4000)
 setInterval(changeBackground_2,6000)
 
+
 function backgroundChangeToPink(){
     document.querySelector('.pricing-header-cont').style.backgroundColor = "pink"
     document.querySelector('.pricing-header>p:nth-child(1)').innerHTML="<b>Save 21% on Select Annual Plans*"
@@ -52,4 +52,3 @@ var annaul = document.querySelector('.pricing-header>button:nth-child(5)')
 var monthly = document.querySelector('.pricing-header>button:nth-child(4)')
 monthly.addEventListener('click',backgroundChangeToWhite)
 annaul.addEventListener('click',backgroundChangeToPink)
-document.addEventListener('scroll',topbar)
