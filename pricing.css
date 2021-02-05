@@ -1,6 +1,15 @@
+.nav-bar{
+    background-color: white;
+}
+.pricing-header-cont{
+    padding-top: 10%;
+    width: 100%;
+    /* height: 600px; */
+}
 
 .pricing-header{
-    width: 70%;
+    /* visibility: hidden; */
+    width: 80%;
     margin: auto;
     padding-top: 12%;
 }
@@ -9,20 +18,40 @@
     font-size:5.5vw;
     font-weight: 600;
     font-family:  'Roboto Condensed', sans-serif;
+    padding-bottom: 3%;
+}
+
+.pricing-header>p:nth-child(2){
+    line-height: 1.5;
+    font-size: 18px;
+    /* font-weight: 550; */
+    padding-bottom: 3%;
+    font-family:  'Roboto Condensed', sans-serif;
 
 }
-.pricing-header p{
+.pricing-header h6{
+    border: 2px dashed white;
+    width: 200px;
+    margin: auto;
+    height: 35px;
+    font-size: 18px;
+}
+
+.pricing-header>p:nth-child(3){
     font-size: 18px;
     padding-bottom: 3%;
+    font-family:  'Roboto Condensed', sans-serif;
+
 }
 .center{
     text-align: center;
 }
 .pricing-header button{
-    width: 180px;
-    height: 40px;
-    border: 1px solid grey;
-    margin: 0%;
+    font-size: 22px;
+    width: 250px;
+    height: 50px;
+    border: .05px solid grey;
+    margin:1% -1.2%;
     padding: 0%;
     
 }
@@ -56,6 +85,8 @@
 }
 .need_higher button{
     /* margin-top: 10%; */
+    
+    
     width: 300px;
     height: 75px;
     background: none;
@@ -64,9 +95,10 @@
     font-size: 16px;
     font-weight: 700;
 }
+
 .need_higher_cont{
     height: 250px;
-    border: 1px solid gray;
+    border-top: 1px solid gray;
 }
 .auto{
     margin: auto;
@@ -74,7 +106,7 @@
 .plan_is_best_cont{
     width: 100%;
     height: 350px;
-    border: 2px solid grey;
+    border: 0.5px solid grey;
 }
 .plan_is_best{
     width: 80%;
@@ -104,12 +136,47 @@
     color: white;
     
 }
+
+.klient_boost_cont{
+    width: 100%;
+    /* border: 2px solid grey; */
+    height: 800px;
+    
+}
 .klient_boost{
     display: flex;
-    height: 650px;
-    width: 100%;
-    border: 2px solid grey;
+    height: 720px;
+    width: 90%;
+    /* border: 2px solid grey; */
+    margin: auto;
 }
 .dog_man_image{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10%;
+    /* border: 2px solid gray; */
     
+}
+.johnathan_quote{
+    width: 40%;
+    padding-top: 8%;
+    
+}
+.johnathan_quote p{
+    text-align: left;
+   font-size: 30px;
+   font-family:  'Roboto Condensed', sans-serif;
+    line-height: 2;
+}
+.johnathan_quote h6{
+    margin: 4% 0;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.klient_boost_cont a{
+  
+    margin-left: 12%;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
 }

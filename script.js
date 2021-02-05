@@ -35,4 +35,21 @@ setInterval(changeBackground,2000)
 setInterval(changeBackground_1,4000)
 setInterval(changeBackground_2,6000)
 
+function backgroundChangeToPink(){
+    document.querySelector('.pricing-header-cont').style.backgroundColor = "pink"
+    document.querySelector('.pricing-header>p:nth-child(1)').innerHTML="<b>Save 21% on Select Annual Plans*"
+    document.querySelector('.pricing-header>p:nth-child(2)').innerHTML="Get a head start on this year’s conversion goal using our AI-powered <br> tools at a discount, until<b> February 21<b>.<br><h6>Use code at signup: 21_off</h6>"
+    document.querySelector('.pricing-header>p:nth-child(3').innerHTML="*Optimize, Accelerate and Scale annual plans only. <a href=index.html>Terms & Conditions apply.</a>"
+}
+function backgroundChangeToWhite(){
+    document.querySelector('.pricing-header-cont').style.backgroundColor = "white"
+    document.querySelector('.pricing-header>p:nth-child(1)').innerHTML="Plans That Scale As You Grow"
+    document.querySelector('.pricing-header>p:nth-child(2)').innerHTML="Whether you’re just getting started with landing pages or you’re already a call to action wizard, we’ve got a conversion-based pricing plan that fits."
+    document.querySelector('.pricing-header>p:nth-child(3)').innerHTML=" Get instant access to Unbounce with your free 14-day trial."
+}
+
+var annaul = document.querySelector('.pricing-header>button:nth-child(5)')
+var monthly = document.querySelector('.pricing-header>button:nth-child(4)')
+monthly.addEventListener('click',backgroundChangeToWhite)
+annaul.addEventListener('click',backgroundChangeToPink)
 document.addEventListener('scroll',topbar)
