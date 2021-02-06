@@ -462,7 +462,7 @@ html, body, .main-container{
     padding: 5px;
 }
 
-@media(max-width: 600px)
+@media(max-width: 800px)
 {
     #amolgrid3
     {
@@ -484,6 +484,16 @@ html, body, .main-container{
     #belowbrand>h1{
         font-size: 40px;
     }
+    #amolcont{
+        display: grid;
+        gap: 0.5em;
+        margin-top: 1em;
+        grid-template: 
+                        "amolleft"
+                        "amolmiddle" 
+                        "amolright"
+    }
+   
 }
 
 

@@ -1,5 +1,5 @@
 #logincontain{
-    width: 100%;
+    width: 1300px;
     height: 700px;
     display: grid;
     grid-template-columns: "1fr 1fr";
