@@ -69,9 +69,68 @@ html, body, .main-container{
     border: 2px solid black;
     height: 40px;
     font-size: 20px;
-
+   
    
 }
+/* .nav-bar a:nth-child(8)>button:hover 
+{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.nav-bar a:nth-child(9)>button:hover 
+{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+} */
+.topnav .icon {
+    display: none;
+  }
+  
+
+  
+  @media screen and (max-width: 1300px) {
+
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+  }
+    @media screen and (max-width: 768px) {
+    
+        .header{
+            background-image: url('https://mk0zofoqaluvgdskgvsb.kinstacdn.com/photos/get-more-sales-slide_sm.jpg');
+        }
+        .cont_text{
+            
+            width: 700px;
+            height: 20%
+        }
+        .inside_cont_text{
+            display: none;
+
+            
+            
+        }
+        
+        
+
+
+
+  }
 
 .nav-bar a:nth-child(9)>button{
    
@@ -462,7 +521,9 @@ html, body, .main-container{
     padding: 5px;
 }
 
+
 @media(max-width: 800px)
+
 {
     #amolgrid3
     {

@@ -1,6 +1,7 @@
 .nav-bar{
     background-color: white;
 }
+
 .pricing-header-cont{
     padding-top: 10%;
     width: 100%;
@@ -8,7 +9,6 @@
 }
 
 .pricing-header{
-    /* visibility: hidden; */
     width: 80%;
     margin: auto;
     padding-top: 12%;
@@ -50,8 +50,8 @@
     font-size: 22px;
     width: 250px;
     height: 50px;
-    border: .05px solid grey;
-    margin:1% -1.2%;
+    border: none;
+    margin:0 -0.5% 0 -1.2%;
     padding: 0%;
     
 }
@@ -157,6 +157,9 @@
     /* border: 2px solid gray; */
     
 }
+.dog_man_image img{
+    width: 100%;
+}
 .johnathan_quote{
     width: 40%;
     padding-top: 8%;
@@ -181,25 +184,52 @@
     font-family: sans-serif;
 }
 .conversions_month_cont{
+    /* background-color: rgba(128, 128, 128, 0.315); */
     width: 100%;
     display: flex;
+    margin-bottom: 10%;
 }
 .conversions_month{
+    background-color: rgba(128, 128, 128, 0.219);
     margin-left: 5%;
     width: 60%;
    
 }
 .conversions_month_right{
+    padding-top: 10%;
     margin-right: 5%;
     width: 25%;
 }
+.conversions_month>p:nth-child(1){
+    margin-top: 10%;
+    font-family: sans-serif;
+    font-size: 30px;  
+    margin-left: 10%;  
+}
 
 .conversions_month>input:nth-child(3n+4) {
+    
+    margin-top: 2%;
     width: 500px;
+    margin-bottom: 10%;
+ 
+}
+.conversions_month h6{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+.conversions_month>input:nth-child(3n+3) {
+    margin-left: 10%;
+    height: 45px;
+    width: 90px;
  
 }
 .conversion_month_right{
-    border: 2px solid grey;
+    background-color: white;
+    /* border: 2px solid grey; */
     width: 40%;
     padding-left: 2%;
 }
@@ -232,6 +262,8 @@
     width: 40%;
     margin:0% -1%;
     height: 50px;
+    border: none;
+    /* background: none; */
 
 }
 .what_included {
@@ -265,27 +297,37 @@
   .bot_m{
       margin-bottom: 5%;
   }
+  .kamalgrid_cont{
+    height: 800px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.062);
+}
   .kamalgrid{
-      height: 900px;
+    background-color: rgba(128, 128, 128, 0.062);
+      padding-top: 10%;
+
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: auto;
    
 }
+
 .conversion_month_right_four{
-    border: 2px solid grey;
+    background-color: white;
+    /* border: 2px solid grey; */
     width: 30%;
     padding-left: 2%;
 }
 .conv_scale_image_four{
-    display: flex;
+ 
     width: 100%;
     
 }
 
 .conv_scale_image_four img{
-    width: 25%;
-    padding: 2%;
+    margin-top: -10%;
+    width: 60%;
+    
     object-fit: contain;
 }
 .conv_scale_four {
