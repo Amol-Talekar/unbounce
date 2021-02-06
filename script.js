@@ -13,14 +13,6 @@ function topbar(){
     }
 }
 document.addEventListener('scroll',topbar)
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
 var images =[
     "url('https://mk0zofoqaluvgdskgvsb.kinstacdn.com/photos/landing-page-convert-more-sales_sm.jpg')",
     "url('https://mk0zofoqaluvgdskgvsb.kinstacdn.com/photos/landing-page-convert-more-customers_sm.jpg')",
@@ -32,42 +24,36 @@ var small_images = [
     'url("https://mk0zofoqaluvgdskgvsb.kinstacdn.com/photos/get-more-customers-slide.jpg")'
 ]
 
-// function changeBackground(){
-//     if (window.screen.width<= 768 && window.screen.height<=1024) { 
-        
-//         document.querySelector('.header').style.backgroundImage =small_images[0]
+function changeBackground(){
+    if (window.screen.width>= 768) { 
+        document.querySelector('.header').style.backgroundImage =images[0]
 
-//     }
-//     else{
-//         document.querySelector('.header').style.backgroundImage =images[0]
-//     }
-//     document.querySelector('.inside_cont_text > p').innerHTML ="Convert More Sales"
-// }
-// function changeBackground_1(){
-//     if (window.screen.width<= 768 && window.screen.height<=1024) { 
-        
-//         document.querySelector('.header').style.backgroundImage =small_images[1]
+    }
+    else{
+        document.querySelector('.header').style.backgroundImage =small_images[0]
+    }
+    document.querySelector('.inside_cont_text > p').innerHTML ="Convert More Sales"
+}
+function changeBackground_1(){
+    if (window.screen.width>= 768) { 
+        document.querySelector('.header').style.backgroundImage =images[1]
 
-//     }
-//     else{
-//         document.querySelector('.header').style.backgroundImage =images[1]
-//     }
-//     document.querySelector('.inside_cont_text > p').innerHTML ="Convert More Customers"
-// }
-// function changeBackground_2(){
-//     if (window.screen.width<= 768 && window.screen.height<=1024) { 
-        
-//         document.querySelector('.header').style.backgroundImage =small_images[2]
+    }
+    else{
+        document.querySelector('.header').style.backgroundImage =small_images[1]
+    }
+    document.querySelector('.inside_cont_text > p').innerHTML ="Convert More Customers"
+}
+function changeBackground_2(){
+  
+        document.querySelector('.header').style.backgroundImage =images[2]
 
-//     }
-//     else{
-//         document.querySelector('.header').style.backgroundImage =images[2]
-//     }
-//     document.querySelector('.inside_cont_text > p').innerHTML ="Convert More leads"
-// }
-// setInterval(changeBackground,2000)
-// setInterval(changeBackground_1,4000)
-// setInterval(changeBackground_2,6000)
+  
+    document.querySelector('.inside_cont_text > p').innerHTML ="Convert More leads"
+}
+setInterval(changeBackground,750)
+setInterval(changeBackground_1,1500)
+setInterval(changeBackground_2,2250)
 
 
 function backgroundChangeToPink(){
@@ -85,7 +71,7 @@ function backgroundChangeToWhite(){
 
 var annaul = document.querySelector('.pricing-header>button:nth-child(5)')
 var monthly = document.querySelector('.pricing-header>button:nth-child(4)')
-console.log(window.screen.width)
+
 monthly.addEventListener('click',backgroundChangeToWhite)
 annaul.addEventListener('click',backgroundChangeToPink)
 
@@ -102,6 +88,13 @@ var con_range = document.querySelector('.conversions_month>input:nth-child(4)').
 con_range.addEventListener('stepUp',changeValue)
 
 
-
-
-  
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+console.log("hey")
+  console.log(window.screen.width)
