@@ -108,6 +108,23 @@ html, body, .main-container{
       display: block;
       text-align: center;
     }
+    .nav-bar>a:nth-child(7){
+        margin-left:10% ;
+       color: rgb(92, 87, 87);
+        font-size: 20px;
+        margin-right: 0;
+    }
+    .nav-bar a:nth-child(8)>button{
+       
+       background: none;
+        color: black;
+        width: 80px;
+        border: 2px solid black;
+        height: 40px;
+        font-size: 20px;
+       
+       
+    }
   }
     @media screen and (max-width: 768px) {
     
