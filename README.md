@@ -15,9 +15,7 @@ This is the project that We developed  during [Constructor week](https://unbounc
 ## Installation
 
 * git clone **https://github.com/Amol-Talekar/unbounce.git** 
-* npm install
-* npm start
-* npm run server
+* Run on Local Server
 
 ## Libery Used
 
