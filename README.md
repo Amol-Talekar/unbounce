@@ -1,17 +1,45 @@
 
-This is Project of Sutlej Group from Samurai 2 batch for Unit 1 Evaluation in Masai School.
-This Project is made by Amol Talekar, Kamal Gupta and Jayesh Kale as a team. We have cloned "unbounce.com".
+# Unbounce
+
+![build](https://img.shields.io/travis/USER/REPO.svg) ![version](https://img.shields.io/badge/version-1.0.0-blue.svg)  
+<!--- ![Product Presentation Image](public/cover.png) --> 
+This is the project that We developed  during [Constructor week](https://unbounce.com/). We are trying to build as same as the website is and  still this project is in continuous upgradation and soon will be launched under custom domain .
+# Table of Contents
+
+* [Installation](#installation)
+* [Libery Used](#libery-used)
+* [Contributors](#contributors)
+* [Reporting Issues](#reporting-issues)
 
 
-Software we used:-
-VS code 
-GIT
-GITHUB
+## Installation
 
-Technology Used:-
-We used HTML, CSS , JS  to achieve clone of this website.
+* git clone **https://github.com/Amol-Talekar/unbounce.git** 
+* npm install
+* npm start
+* npm run server
+
+## Libery Used
+
+* HTML
+* CSS
+* JavaScript
+
+## Our Landing Page!
+ ![unbouncelogo](https://user-images.githubusercontent.com/76869468/128009953-9cf51967-b662-486a-9551-feb7f3b69f42.png)
 
 
-Intsallation:-
-Clone this and able to use in any computer Which has browser.
 
+## Contributors
+
+
+<a href="../../../../Amol-Talekar" target="_blank"><img src="https://avatars.githubusercontent.com/u/76869468?v=4" alt="Amol Talekar" width="70" height="70" border="10" /></a> 
+<a href="../../../../kamalgupta97" target="_blank"><img src="https://avatars.githubusercontent.com/u/63225641?v=4" alt="Kamal Gupta" width="70" height="70" border="10" /></a>
+<a href="../../../../jayeshk-star" target="_blank"><img src="https://avatars.githubusercontent.com/u/77038786?v=4" alt="Jayesh Kale" width="70" height="70" border="10" /></a>
+
+
+ 
+
+## Reporting Issues
+
+We use GitHub Issues as the official bug tracker. Standard Issue/Bug request is supported.
